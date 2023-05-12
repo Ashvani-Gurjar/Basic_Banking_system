@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Blaka+Ink&family=Bungee+Spice&display=swap');
+
+html{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #367490;
+}
+
+/* splash screen css starts here  */
+#loading{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #e4eff2 url("https://media.giphy.com/media/xTk9ZvMnbIiIew7IpW/giphy.gif") no-repeat center center;
+    z-index: 99999;
+}
+/* splash screen css ends here  */
+
+/* navbar css starts here  */
+.bg-light{
+    background-color: #23020a!important;
+}
+
+.navbar-brand{
+    font-family:'Bungee Spice' , cursive;
+    font-size: 2.5rem;
+    color: #66685f!important;
+}
+
+.nav-link{
+    color: #f5b0d8!important;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.nav-link:hover{
+    background-color: #97b90fb1;
+    box-shadow: 2px 2px 10px rgba(159, 27, 27, 0.464);
+}
+/* navbar css ends here  */
+
+/* here content css starts here  */
+.hero-content{
+    height: 100vh;
+    background-color: #b19e3a;
+    color: #ffffff;
+    padding: 3rem;
+    border-bottom-left-radius: 45rem;
+    border-bottom-right-radius: 45rem;
+    margin-bottom: 1vh;
+}
+
+.hero-img{
+    height: 70vh;
+    width: 100%;
+    border-radius: 13%;
+    box-shadow: 0px 0px 10px black;
+}
+
+@media only screen and (max-width: 766px) {
+    .hero-img {
+      display: none;
+    }
+}
+
+.get-started{
+    border-radius: 0.5rem;
+    padding: 1rem 2rem;
+    font-size: 162%;
+    background-color: #fff;
+    color: #039be5!important;
+    transition: 0.3s;
+}
+
+.get-started:hover{
+    text-decoration: none;
+    background-color: #d93896;
+    box-shadow: 2px 2px 10px rgba(58, 218, 14, 0.615);
+    
+}
+/* here content css starts here  */
+
+/* get-started-buttons css starts here*/
+.get-started-content{
+    height: 60vh;
+    background-color: #ff8a65;
+    border-top-left-radius: 42rem;
+    border-top-right-radius: 42rem;
+    border-bottom-right-radius: 42rem;
+    border-bottom-left-radius: 42rem;
+}
+
+.get-started-content .row{
+    padding: 25vh 0;
+}
+
+.get-started-content a{
+    border-radius: 0.5rem;
+    padding: 1rem 2rem;
+    font-size: 162%;
+    background-color: #039be5;
+    color: #fff!important;
+    transition: 0.3s;
+}
+
+.get-started-content a:hover{
+    background-color: #017ab6;
+    text-decoration: none;
+}
+/* get-started-buttons css end here*/
+
+/* footer css starts here */
+
+.social-icons li{
+    list-style: none;
+    display: inline;
+    padding: 0.5rem;
+}
+
+.github{
+    color: #24292e;
+}
+
+.linkedin{
+    color: #0077b5;
+}
+
+.google{
+    color: #D44638;
+}
+/* footer css ends here  */
+
+#footerbar{
+    display:flex;
+    justify-content: space-around;
+    border-radius: 10px;
+    background-color: #b19e3a;
+    max-width: 100%;
+    margin-left: 2px;
+    padding: 20px;
+    font-size: large;
+    box-shadow: 0px 0px 10px black;
+}
